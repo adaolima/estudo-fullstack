@@ -1,0 +1,17 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    enviroment:
+      - POSTGRES_USER: mymoney_user
+      - POSTGRES_DB: mymoney_db
+      - POSTGRES_PASSWORD: mymoney_123
+  
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
