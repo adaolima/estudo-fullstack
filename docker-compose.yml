@@ -5,10 +5,12 @@ services:
   db:
     image: postgres
     restart: always
-    enviroment:
-      - POSTGRES_USER: mymoney_user
-      - POSTGRES_DB: mymoney_db
-      - POSTGRES_PASSWORD: mymoney_123
+    environment:
+      POSTGRES_USER: mymoney_user
+      POSTGRES_DB: mymoney_db
+      POSTGRES_PASSWORD: mymoney_123
+    ports:
+      - 5432:5432
   
   adminer:
     image: adminer
