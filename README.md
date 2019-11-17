@@ -7,5 +7,6 @@ Estudo do [Fullstack com Node.Js, React e GraphQL](https://www.webdevdrops.com/f
 
 Aplicação para gestão de investimentos.
 
-- Setup Node.JS and Express
-- PostgreSQL and Squelize (Add Docker)
+[x] Setup Node.JS and Express
+[x] PostgreSQL and Squelize (Add Docker)
+[]  Teses unitários
