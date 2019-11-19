@@ -42,7 +42,7 @@
     "sequelize": "^5.21.2"
   },
   "nyc": {
-    "exclude":[
+    "exclude": [
       "config",
       "src/models.index.js",
       "test/**"
