@@ -13,7 +13,7 @@ module.exports = function (app) {
   requireAll({
     dirname: __dirname + '/../../routes',
     recursive: true,
-    resolve: Module => app.use('/forest', Module)
+    resolve: Module => app.use(__dirname + '/../../forest', Module)
   });
 
   console.log(chalk.cyan('Your admin panel is available here: https://app.forestadmin.com/projects'));

@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "forest-express-sequelize": "^5.2.0",
     "pg": "^7.12.1",
     "sequelize": "^5.21.2"
   },
