@@ -1,5 +1,6 @@
 -----
-###### estudo-fullstack
+###### estudo-fullstack 
+[![Build Status](https://travis-ci.org/adaolima/estudo-fullstack.svg?branch=master)](https://travis-ci.org/adaolima/estudo-fullstack)
 
 # My Money by Adam
 
